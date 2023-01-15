@@ -29,6 +29,8 @@ git stash pop // 보관되있던 파일을 다시 복원시킴
 
 git remote add origin (깃허브 주소)
 
-git push -u origin master
+git push -u origin master //초기 수정사항들을 백업할 때 명령어
 
-git pull origin master
+git pull origin master //깃허브의 수정사항들을 컴퓨터로 복원
+
+git clone (대상주소) (디텍토리이름) // 내 깃허브의 있는 파일들을 내 컴퓨터로 복제
